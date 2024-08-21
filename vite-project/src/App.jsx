@@ -1,15 +1,15 @@
-import Favorites from "./components/Favorites"
+import './App.css'
+//import Favorites from "./components/Favorites"
 import Meals from "./components/Meals"
 //import Search from "./components/Search"
-import Modal from "./components/Modal"
+//import Modal from "./components/Modal"
 
 const App = () => {
   return (
   <>
- {/*<Search />*/} 
-  <Favorites />
+  
   <Meals/>
-  <Modal/>
+  
   
   </> 
   )
